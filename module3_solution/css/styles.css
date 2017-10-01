@@ -1,0 +1,63 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color: black;
+	   border-style: 1px solid red;
+
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand p { /* Restaurant name */
+  
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+
+#mainheading {
+	text-align: center;;
+}
+
+
+
+.row {
+	height: auto;
+	width:100%;
+	border: 1px solid black;
+	margin:0;
+}
+.section {
+	background-color: grey;
+	padding: 10px;
+	color: white;
+	margin: 10px 0px;
+}
+.item {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 1199{ ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
