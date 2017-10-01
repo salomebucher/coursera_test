@@ -1,0 +1,86 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+   font-family: Helvetica;
+
+}
+h1 {
+  font-size: 175%;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+
+p {
+  height:auto;
+  color: black;
+  background:#BFBFBF;
+  padding: 35px 10px 10px 10px;
+  border: 1px solid black;
+ }
+
+ .section {
+  position: relative;
+  margin: 10px;
+}
+.item1, .item2, .item3 {
+  position: absolute;
+  top:0px;
+  right: 0px;
+  font-size: 125%;
+  font-weight: 500;
+  padding: 3px 40px;
+  border: 1px solid black;
+  color: black;
+   
+      }
+
+ .item1 {
+   background-color: #C7F7BE;
+ }    
+ .item2 {
+   background-color: #EFCCEB;
+}
+.item3 {
+  background-color: #FFF2B4;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin:0px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+   width: 33.33%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+      }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+
+
+/********** Small devices (mobiles) **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+
+}
+

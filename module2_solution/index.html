@@ -4,103 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-   font-family: Helvetica;
-
-}
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-
-}
-
-p {
-  height:auto;
-  color: white;
-  background:grey;
-  padding: 35px 10px;
-  border: 1px solid black;
- }
-
- .section {
-  position: relative;
-  margin: 10px;
-}
-.item1, .item2, .item3 {
-  position: absolute;
-  top:0px;
-  right: 0px;
-  font-size: 100%;
-  font-weight: 500;
-  padding: 3px 10px;
-  border: 1px solid black;
-  color: white;
-   
-      }
-
- .item1 {
-   background-color: blue;
- }    
- .item2 {
-   background-color: green;
- } 
-.item3 {
-   background-color: red;
- }  
+<link rel="stylesheet" href="/css/styles.css">
 
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  margin:0px;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-3 {
-    float: left;
-   width: 33.33%;
-    }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
-    float: left;
-      }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-
-
-
-/********** Small devices (mobiles) **********/
-@media (max-width: 767px) {
-  .col-sm-12 {
-    float: left;
-    width: 100%;
-
-}
-
-</style>
 </head>
 <body>
+<header>  
 <h1>Our Menu</h1>
-
+</header>
 
 <div class="row">
   <div class="col-lg-3 col-md-6 col-sm-12">
 <div class="section">
-  <div class="item1">Chicken</div>
+  <div class="item1">Chicken Curry</div>
     <div class="description"><p>Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie.</p> </div></div></div>
   <div class="col-lg-3 col-md-6 col-sm-12">
 <div class="section">
@@ -108,10 +24,10 @@ p {
     <div class="description"><p>Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie.</p></div></div></div>
   <div class="col-lg-3 col-md-12 col-sm-12">
 <div class="section">
-  <div class="item3">Sushi</div>
+  <div class="item3">Sushi Plates</div>
 <div class="description"><p>Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. Integer gravida nisi ut magna mollis molestie. </p></div>
 </div>
 </div>
-
+</div>
 </body>
 </html>
