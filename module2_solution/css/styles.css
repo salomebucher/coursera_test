@@ -1,16 +1,22 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-   font-family: Helvetica, Arial, sans-serif;
-   margin:0;
+  margin:0;
 }
+
+body {
+   font-family: Helvetica, Arial, sans-serif;
+
+}
+
 h1 {
   font-size: 175%;
   margin-bottom: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 
-p {
+.menu-section-description {
   height:auto;
   color: black;
   padding: 35px 10px 10px 10px;
@@ -27,20 +33,20 @@ p {
   top:0px;
   right: 0px;
   font-size: 125%;
-  font-weight: 500;
   padding: 3px 25px;
   border: 1px solid black;
   color: black;
 }
 
 #item1 {
-   background-color: #C7F7BE;
+   background-color: #d59898;
 }    
 #item2 {
-   background-color: #EFCCEB;
+   background-color: #c14543;
+   color:white;
 }
 #item3 {
-  background-color: #FFF2B4;
+  background-color: #e5d198;
 }
 
 
