@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
    font-family: Helvetica, Arial, sans-serif;
+   margin:0;
 }
 h1 {
   font-size: 175%;
@@ -12,32 +13,33 @@ h1 {
 p {
   height:auto;
   color: black;
-  background:#BFBFBF;
   padding: 35px 10px 10px 10px;
   border: 1px solid black;
+  background:#BFBFBF;
  }
- .section {
+ .menu-section {
   position: relative;
   margin: 10px;
+  
 }
-.item1, .item2, .item3 {
+#item1, #item2, #item3 {
   position: absolute;
   top:0px;
   right: 0px;
   font-size: 125%;
   font-weight: 500;
-  padding: 3px 40px;
+  padding: 3px 25px;
   border: 1px solid black;
   color: black;
 }
 
-.item1 {
+#item1 {
    background-color: #C7F7BE;
 }    
-.item2 {
+#item2 {
    background-color: #EFCCEB;
 }
-.item3 {
+#item3 {
   background-color: #FFF2B4;
 }
 
@@ -45,7 +47,6 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin:0px;
 }
 
 /********** Large devices only **********/
